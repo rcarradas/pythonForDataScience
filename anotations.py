@@ -19,6 +19,12 @@ print(Numbers.find('1')) # find a pattern
 #Tuples can contain other tuples, like : NT = (1,2,("pop","rock"),(3,4),("disco,(1,2")))
 #They are called NESTING
 #NESTINGS can be access by indexing
+#We can concatenate or combine tuples by using the + sign:
+
+# Concatenate two tuples
+​
+tuple2 = tuple1 + ("hard rock", 10)
+tuple2
 
 ##List's are the same, but mutables
 
@@ -37,3 +43,27 @@ B = A[:] #clone
 
 C = ["a","b","c"]
 print(C[1:])
+
+
+###SETS#######
+#unlike lists and tuples they are unordered
+#they not record the elements position
+#set ={"pop","rock","soul","rock"}#when the set is created he not allows duplicate elements like "rock"
+#they have some really good methods like "&" to discover the intersection between two sets
+#"diference" to discover the diferences between 2 sets
+#"intersection" the name explains for himself
+
+###DICTIONARIES###
+##they are a collection type
+
+
+###LOOPS###
+##Types of index FOR
+
+listColors = ["Red","Violet","Orange","Black", "Seafom Green"]
+
+for i in range(len(listColors)):##In range type 1
+
+for colors in listColors: #Type 2 Will pick every index values like "Red" and "Violet"
+
+for index, colors in enumerate(listColors): # @ parameter i can pick the index and the value of each position of the list
